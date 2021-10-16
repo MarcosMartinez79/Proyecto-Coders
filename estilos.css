@@ -1,0 +1,80 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/*  ---------HEADER-------- */
+.banner {
+  background-color: rgb(252, 249, 249);
+  
+}
+
+.menuSuperior{
+    padding: 18px;
+    list-style: none;
+}
+.menuSuperior a{
+    text-decoration: none;
+    color: rgb(7, 0, 0);
+
+}
+
+
+/* -----SECCIONES */
+
+#Nosotros {
+  background-color: rgb(103, 103, 216);
+  color: rgb(223, 199, 103);
+  font-size: 20px;
+  padding: 26px;
+}
+
+#Modelos {
+  background-color: rgb(250, 84, 18);
+  color: rgb(223, 199, 103);
+  font-size: 20px;
+  padding: 26px;
+}
+
+#Destacados {
+  background-color: rgb(117, 116, 101);
+  color: rgb(81, 162, 238);
+  font-size: 20px;
+  padding: 26px;
+}
+
+#Contacto {
+  background-color: rgb(103, 184, 216);
+  color: rgb(223, 199, 103);
+  font-size: 20px;
+  padding: 26px;
+}
+
+.titulos{
+    color: rgb(62, 32, 196);
+    font-size: 30px;
+}
+footer {
+  background-color: rgb(98, 240, 129);
+  padding: 16px;
+ 
+}
+.contenedor{
+  background: rgb(252, 8, 8);
+  display: flex;
+  width: 900px;
+  height: 400px;
+
+  flex-wrap: wrap;
+  align-content: flex-end; 
+}
+  .elemento{
+  width:50%;
+  }
+
+  
+
+  
+  
